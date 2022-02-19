@@ -17,11 +17,22 @@ body {
   width: 512px;
   margin: auto;
   margin-top: 10vh;
+  margin-bottom: 2em;
+}
+
+p {
+  margin: 0.5rem;
 }
 
 #subtitle {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 700;
+}
+
+#soon {
+  font-size: 4em;
+  font-weight: 700;
+  margin-bottom: 1em;
 }
 
 .hero {
@@ -55,6 +66,12 @@ a {
   font-weight: 700;
   color: var(--text-primary);
   text-decoration: none;
+  display: block;
+  width: fit-content;
+  transition: transform 50ms ease-out;
+}
+a:hover {
+  transform: scale(1.1);
 }
 
 .text-secondary > a:hover {
