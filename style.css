@@ -1,0 +1,69 @@
+:root {
+  --text-primary: #333;
+  --text-secondary: #f2b679;
+  --text-tertiary: #e68aa9;
+  --background-primary: #e6e6da;
+  --text-quaternary: var(--background-primary);
+}
+
+body {
+  font-family: "Quicksand";
+  margin: 0;
+  background: var(--background-primary);
+  color: var(--text-primary);
+}
+
+#title {
+  width: 512px;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+#subtitle {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.hero {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background: var(--background-primary) url(./img/cnvs-background.svg) no-repeat
+    center;
+  background-size: cover;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100vw;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.footer-link {
+  text-align: center;
+  width: 150px;
+}
+
+a {
+  font-weight: 700;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.text-secondary > a:hover {
+  color: var(--text-secondary);
+}
+.text-quaternary > a:hover {
+  color: var(--text-quaternary);
+}
+
+.text-tertiary > a:hover {
+  color: var(--text-tertiary);
+}
