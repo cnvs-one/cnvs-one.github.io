@@ -84,3 +84,9 @@ a:hover {
 .text-tertiary > a:hover {
   color: var(--text-tertiary);
 }
+
+@media only screen and (max-width: 540px) {
+  #title {
+    width: calc(100vw - 20px);
+  }
+}
