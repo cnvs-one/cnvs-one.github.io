@@ -58,6 +58,7 @@ footer {
 }
 
 .footer-link {
+  align-items: center;
   text-align: center;
   width: 100px;
 }
@@ -66,7 +67,7 @@ a {
   font-weight: 700;
   color: var(--text-primary);
   text-decoration: none;
-  display: block;
+  display: inline-block;
   width: fit-content;
   transition: transform 50ms ease-out;
 }
