@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Quicksand";
+  font-family: Quicksand, Sans-Serif;
   margin: 0;
   background: var(--background-primary);
   color: var(--text-primary);
